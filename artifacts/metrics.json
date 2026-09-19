@@ -1,0 +1,184 @@
+{
+  "delay_classifier": {
+    "accuracy": 0.8756624541377904,
+    "balanced_accuracy": 0.8953340939098788,
+    "macro_f1": 0.850521650300599,
+    "weighted_f1": 0.8812853973419337,
+    "confusion_matrix": [
+      [
+        1577,
+        265
+      ],
+      [
+        40,
+        571
+      ]
+    ],
+    "labels": [
+      "0",
+      "1"
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.9752628324056896,
+        "recall": 0.8561346362649295,
+        "f1-score": 0.9118242266551027,
+        "support": 1842.0
+      },
+      "1": {
+        "precision": 0.6830143540669856,
+        "recall": 0.9345335515548282,
+        "f1-score": 0.7892190739460954,
+        "support": 611.0
+      },
+      "accuracy": 0.8756624541377904,
+      "macro avg": {
+        "precision": 0.8291385932363375,
+        "recall": 0.8953340939098788,
+        "f1-score": 0.850521650300599,
+        "support": 2453.0
+      },
+      "weighted avg": {
+        "precision": 0.902468776040036,
+        "recall": 0.8756624541377904,
+        "f1-score": 0.8812853973419337,
+        "support": 2453.0
+      }
+    },
+    "roc_auc": 0.9443641811096244,
+    "precision": 0.6830143540669856,
+    "recall": 0.9345335515548282,
+    "decision_threshold": 0.5356717893247174,
+    "best_cv_score": 0.9459389735654323,
+    "best_parameters": {
+      "model__n_estimators": 700,
+      "model__min_samples_split": 5,
+      "model__min_samples_leaf": 8,
+      "model__max_features": 0.6,
+      "model__max_depth": 30
+    },
+    "train_rows": 7656,
+    "validation_rows": 1901,
+    "test_rows": 2453
+  },
+  "risk_classifier": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0,
+    "confusion_matrix": [
+      [
+        1474,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        487,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        310,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        182
+      ]
+    ],
+    "labels": [
+      "Low",
+      "Medium",
+      "High",
+      "Critical"
+    ],
+    "classification_report": {
+      "Low": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1474.0
+      },
+      "Medium": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 487.0
+      },
+      "High": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 310.0
+      },
+      "Critical": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 182.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2453.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 2453.0
+      }
+    },
+    "best_cv_score": 1.0,
+    "best_parameters": {
+      "model__n_estimators": 500,
+      "model__min_samples_split": 2,
+      "model__min_samples_leaf": 8,
+      "model__max_features": 0.8,
+      "model__max_depth": 30
+    },
+    "train_rows": 7656,
+    "validation_rows": 1901,
+    "test_rows": 2453
+  },
+  "delay_days_regressor": {
+    "mae": 1.8960148030996244,
+    "rmse": 3.0732798363096117,
+    "r2": 0.6105173925659098,
+    "best_cv_score": -2.0603122062622066,
+    "best_parameters": {
+      "model__n_estimators": 500,
+      "model__min_samples_split": 2,
+      "model__min_samples_leaf": 8,
+      "model__max_features": 0.8,
+      "model__max_depth": 30
+    },
+    "train_rows": 1666,
+    "validation_rows": 424,
+    "test_rows": 611
+  },
+  "effort_overrun_regressor": {
+    "mae": 0.08721645549410212,
+    "rmse": 0.13763081208617953,
+    "r2": 0.3887895824267674,
+    "best_cv_score": -0.08488072216421062,
+    "best_parameters": {
+      "model__n_estimators": 500,
+      "model__min_samples_split": 2,
+      "model__min_samples_leaf": 8,
+      "model__max_features": 0.8,
+      "model__max_depth": 30
+    },
+    "train_rows": 7656,
+    "validation_rows": 1901,
+    "test_rows": 2453
+  }
+}

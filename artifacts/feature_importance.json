@@ -1,0 +1,362 @@
+{
+  "delay_classifier": [
+    {
+      "feature": "estimated_duration_days",
+      "importance": 0.30217609041460025
+    },
+    {
+      "feature": "progress_percentage",
+      "importance": 0.24725554235027158
+    },
+    {
+      "feature": "status",
+      "importance": 0.2456633694259087
+    },
+    {
+      "feature": "estimated_effort_hours",
+      "importance": 0.07167837463313508
+    },
+    {
+      "feature": "project_status",
+      "importance": 0.02652045764070589
+    },
+    {
+      "feature": "project_start_days_ago",
+      "importance": 0.01143400722467658
+    },
+    {
+      "feature": "complexity_score",
+      "importance": 0.010768733420222932
+    },
+    {
+      "feature": "project_budget",
+      "importance": 0.00963608170020879
+    },
+    {
+      "feature": "assignee_availability",
+      "importance": 0.009122964428548794
+    },
+    {
+      "feature": "assignee_cost_rate",
+      "importance": 0.008834521222625746
+    },
+    {
+      "feature": "assignee_experience",
+      "importance": 0.008646326583130328
+    },
+    {
+      "feature": "assignee_recent_hours",
+      "importance": 0.008411349101595054
+    },
+    {
+      "feature": "assignee_utilization",
+      "importance": 0.008381266151248902
+    },
+    {
+      "feature": "avg_risk_probability",
+      "importance": 0.0059973463190482875
+    },
+    {
+      "feature": "project_domain",
+      "importance": 0.005056255643221029
+    },
+    {
+      "feature": "task_type",
+      "importance": 0.0045022627836349685
+    },
+    {
+      "feature": "dependency_depth",
+      "importance": 0.0037571288389797045
+    },
+    {
+      "feature": "priority",
+      "importance": 0.0032947987665022517
+    },
+    {
+      "feature": "assignee_role",
+      "importance": 0.002917194988355361
+    },
+    {
+      "feature": "num_dependencies",
+      "importance": 0.0024825907143496725
+    },
+    {
+      "feature": "max_risk_severity_ord",
+      "importance": 0.002283685850896432
+    },
+    {
+      "feature": "num_risks",
+      "importance": 0.0011796517981335914
+    }
+  ],
+  "risk_classifier": [
+    {
+      "feature": "max_risk_severity_ord",
+      "importance": 0.914090235512258
+    },
+    {
+      "feature": "avg_risk_probability",
+      "importance": 0.05192359326221635
+    },
+    {
+      "feature": "num_risks",
+      "importance": 0.0331698393928614
+    },
+    {
+      "feature": "project_budget",
+      "importance": 0.0001571939945869817
+    },
+    {
+      "feature": "complexity_score",
+      "importance": 9.634064446859679e-05
+    },
+    {
+      "feature": "project_start_days_ago",
+      "importance": 8.220468488609059e-05
+    },
+    {
+      "feature": "assignee_utilization",
+      "importance": 8.013051328100195e-05
+    },
+    {
+      "feature": "estimated_effort_hours",
+      "importance": 6.446493074683114e-05
+    },
+    {
+      "feature": "assignee_cost_rate",
+      "importance": 5.5057860754552844e-05
+    },
+    {
+      "feature": "estimated_duration_days",
+      "importance": 4.954248205269964e-05
+    },
+    {
+      "feature": "num_dependencies",
+      "importance": 4.3592085464920696e-05
+    },
+    {
+      "feature": "assignee_experience",
+      "importance": 3.8157968429202276e-05
+    },
+    {
+      "feature": "assignee_recent_hours",
+      "importance": 2.8568722298569437e-05
+    },
+    {
+      "feature": "project_domain",
+      "importance": 2.192981311299594e-05
+    },
+    {
+      "feature": "task_type",
+      "importance": 2.1295297186001308e-05
+    },
+    {
+      "feature": "progress_percentage",
+      "importance": 2.122328947823902e-05
+    },
+    {
+      "feature": "priority",
+      "importance": 1.9202770214561997e-05
+    },
+    {
+      "feature": "assignee_availability",
+      "importance": 1.2045959971326076e-05
+    },
+    {
+      "feature": "status",
+      "importance": 9.9052690646419e-06
+    },
+    {
+      "feature": "dependency_depth",
+      "importance": 7.693304135128056e-06
+    },
+    {
+      "feature": "project_status",
+      "importance": 7.223986731137661e-06
+    },
+    {
+      "feature": "assignee_role",
+      "importance": 5.582558008283474e-07
+    }
+  ],
+  "delay_days_regressor": [
+    {
+      "feature": "estimated_duration_days",
+      "importance": 0.7020659451529183
+    },
+    {
+      "feature": "estimated_effort_hours",
+      "importance": 0.100924638623579
+    },
+    {
+      "feature": "project_start_days_ago",
+      "importance": 0.020491150017986976
+    },
+    {
+      "feature": "assignee_cost_rate",
+      "importance": 0.020132485351816717
+    },
+    {
+      "feature": "assignee_experience",
+      "importance": 0.019609009380636234
+    },
+    {
+      "feature": "project_budget",
+      "importance": 0.01899942402182747
+    },
+    {
+      "feature": "assignee_utilization",
+      "importance": 0.016825369638246185
+    },
+    {
+      "feature": "complexity_score",
+      "importance": 0.016644491183540305
+    },
+    {
+      "feature": "assignee_recent_hours",
+      "importance": 0.01619502161459141
+    },
+    {
+      "feature": "assignee_availability",
+      "importance": 0.012802506438321322
+    },
+    {
+      "feature": "avg_risk_probability",
+      "importance": 0.01044568935238438
+    },
+    {
+      "feature": "priority",
+      "importance": 0.007137263258072264
+    },
+    {
+      "feature": "dependency_depth",
+      "importance": 0.0066047586248994756
+    },
+    {
+      "feature": "assignee_role",
+      "importance": 0.006546014803683968
+    },
+    {
+      "feature": "max_risk_severity_ord",
+      "importance": 0.005710604242198861
+    },
+    {
+      "feature": "project_domain",
+      "importance": 0.005546533961930868
+    },
+    {
+      "feature": "task_type",
+      "importance": 0.004578579144054462
+    },
+    {
+      "feature": "num_dependencies",
+      "importance": 0.0040085334704079555
+    },
+    {
+      "feature": "project_status",
+      "importance": 0.0027972675888190846
+    },
+    {
+      "feature": "num_risks",
+      "importance": 0.0019347141300846786
+    },
+    {
+      "feature": "status",
+      "importance": 0.0
+    },
+    {
+      "feature": "progress_percentage",
+      "importance": 0.0
+    }
+  ],
+  "effort_overrun_regressor": [
+    {
+      "feature": "progress_percentage",
+      "importance": 0.40424991699568613
+    },
+    {
+      "feature": "status",
+      "importance": 0.09299908185653716
+    },
+    {
+      "feature": "priority",
+      "importance": 0.06733580412391486
+    },
+    {
+      "feature": "estimated_effort_hours",
+      "importance": 0.042065909053441077
+    },
+    {
+      "feature": "project_start_days_ago",
+      "importance": 0.0406282693596517
+    },
+    {
+      "feature": "complexity_score",
+      "importance": 0.039487591130303534
+    },
+    {
+      "feature": "project_budget",
+      "importance": 0.03724581990462967
+    },
+    {
+      "feature": "assignee_experience",
+      "importance": 0.028866965168928373
+    },
+    {
+      "feature": "assignee_cost_rate",
+      "importance": 0.028762201664332986
+    },
+    {
+      "feature": "assignee_utilization",
+      "importance": 0.02875731853123916
+    },
+    {
+      "feature": "assignee_recent_hours",
+      "importance": 0.028367106663886792
+    },
+    {
+      "feature": "assignee_availability",
+      "importance": 0.025973615521923316
+    },
+    {
+      "feature": "project_status",
+      "importance": 0.024930593269550216
+    },
+    {
+      "feature": "estimated_duration_days",
+      "importance": 0.02258371132242786
+    },
+    {
+      "feature": "avg_risk_probability",
+      "importance": 0.01980863320797606
+    },
+    {
+      "feature": "project_domain",
+      "importance": 0.014281834630896805
+    },
+    {
+      "feature": "dependency_depth",
+      "importance": 0.014118890652669417
+    },
+    {
+      "feature": "task_type",
+      "importance": 0.011363729055638021
+    },
+    {
+      "feature": "num_dependencies",
+      "importance": 0.009112814515385136
+    },
+    {
+      "feature": "assignee_role",
+      "importance": 0.007894180254994772
+    },
+    {
+      "feature": "max_risk_severity_ord",
+      "importance": 0.007046266769992653
+    },
+    {
+      "feature": "num_risks",
+      "importance": 0.00411974634599414
+    }
+  ]
+}
